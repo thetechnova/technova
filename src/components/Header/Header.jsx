@@ -12,37 +12,65 @@ const Header = () => {
             aria-label="Preline"
           >
             <svg
-              class="w-28 h-auto"
-              width="116"
-              height="32"
-              viewBox="0 0 116 32"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
+              width="468.59999999999997"
+              height="136.00829268292682"
+              viewBox="0 0 410 119"
+              class="w-32 h-auto looka-1j8o68f"
             >
-              <path
-                d="M33.5696 30.8182V11.3182H37.4474V13.7003H37.6229C37.7952 13.3187 38.0445 12.9309 38.3707 12.5369C38.7031 12.1368 39.134 11.8045 39.6634 11.5398C40.1989 11.2689 40.8636 11.1335 41.6577 11.1335C42.6918 11.1335 43.6458 11.4044 44.5199 11.946C45.3939 12.4815 46.0926 13.291 46.6158 14.3743C47.139 15.4515 47.4006 16.8026 47.4006 18.4276C47.4006 20.0095 47.1451 21.3452 46.6342 22.4347C46.1295 23.518 45.4401 24.3397 44.5661 24.8999C43.6982 25.4538 42.7256 25.7308 41.6484 25.7308C40.8852 25.7308 40.2358 25.6046 39.7003 25.3523C39.1709 25.0999 38.737 24.7829 38.3984 24.4013C38.0599 24.0135 37.8014 23.6226 37.6229 23.2287H37.5028V30.8182H33.5696ZM37.4197 18.4091C37.4197 19.2524 37.5367 19.9879 37.7706 20.6158C38.0045 21.2436 38.343 21.733 38.7862 22.0838C39.2294 22.4285 39.768 22.6009 40.402 22.6009C41.0421 22.6009 41.5838 22.4254 42.027 22.0746C42.4702 21.7176 42.8056 21.2251 43.0334 20.5973C43.2673 19.9633 43.3842 19.2339 43.3842 18.4091C43.3842 17.5904 43.2704 16.8703 43.0426 16.2486C42.8149 15.6269 42.4794 15.1406 42.0362 14.7898C41.593 14.4389 41.0483 14.2635 40.402 14.2635C39.7618 14.2635 39.2202 14.4328 38.777 14.7713C38.34 15.1098 38.0045 15.59 37.7706 16.2116C37.5367 16.8333 37.4197 17.5658 37.4197 18.4091ZM49.2427 25.5V11.3182H53.0559V13.7926H53.2037C53.4622 12.9124 53.8961 12.2476 54.5055 11.7983C55.1149 11.3428 55.8166 11.1151 56.6106 11.1151C56.8076 11.1151 57.02 11.1274 57.2477 11.152C57.4754 11.1766 57.6755 11.2105 57.8478 11.2536V14.7436C57.6632 14.6882 57.4077 14.639 57.0815 14.5959C56.7553 14.5528 56.4567 14.5312 56.1859 14.5312C55.6073 14.5312 55.0903 14.6574 54.6348 14.9098C54.1854 15.156 53.8284 15.5007 53.5638 15.9439C53.3052 16.3871 53.176 16.898 53.176 17.4766V25.5H49.2427ZM64.9043 25.777C63.4455 25.777 62.1898 25.4815 61.1373 24.8906C60.0909 24.2936 59.2845 23.4503 58.7182 22.3608C58.1519 21.2652 57.8688 19.9695 57.8688 18.4737C57.8688 17.0149 58.1519 15.7346 58.7182 14.6328C59.2845 13.531 60.0816 12.6723 61.1096 12.0568C62.1437 11.4413 63.3563 11.1335 64.7474 11.1335C65.683 11.1335 66.5539 11.2843 67.3603 11.5859C68.1728 11.8814 68.8806 12.3277 69.4839 12.9247C70.0932 13.5218 70.5672 14.2727 70.9057 15.1776C71.2443 16.0762 71.4135 17.1288 71.4135 18.3352V19.4155H59.4384V16.978H67.7111C67.7111 16.4117 67.588 15.91 67.3418 15.473C67.0956 15.036 66.754 14.6944 66.317 14.4482C65.8861 14.1958 65.3844 14.0696 64.812 14.0696C64.2149 14.0696 63.6856 14.2081 63.2239 14.4851C62.7684 14.7559 62.4114 15.1222 62.1529 15.5838C61.8944 16.0393 61.762 16.5471 61.7559 17.1072V19.4247C61.7559 20.1264 61.8851 20.7327 62.1437 21.2436C62.4083 21.7545 62.7807 22.1484 63.2608 22.4254C63.741 22.7024 64.3103 22.8409 64.9689 22.8409C65.406 22.8409 65.8061 22.7794 66.1692 22.6562C66.5324 22.5331 66.8432 22.3485 67.1018 22.1023C67.3603 21.8561 67.5572 21.5545 67.6927 21.1974L71.3304 21.4375C71.1458 22.3116 70.7672 23.0748 70.1948 23.7273C69.6285 24.3736 68.896 24.8783 67.9974 25.2415C67.1048 25.5985 66.0738 25.777 64.9043 25.777ZM77.1335 6.59091V25.5H73.2003V6.59091H77.1335ZM79.5043 25.5V11.3182H83.4375V25.5H79.5043ZM81.4801 9.49006C80.8954 9.49006 80.3937 9.29616 79.9752 8.90838C79.5628 8.51444 79.3566 8.04356 79.3566 7.49574C79.3566 6.95407 79.5628 6.48935 79.9752 6.10156C80.3937 5.70762 80.8954 5.51065 81.4801 5.51065C82.0649 5.51065 82.5635 5.70762 82.9759 6.10156C83.3944 6.48935 83.6037 6.95407 83.6037 7.49574C83.6037 8.04356 83.3944 8.51444 82.9759 8.90838C82.5635 9.29616 82.0649 9.49006 81.4801 9.49006ZM89.7415 17.3011V25.5H85.8083V11.3182H89.5569V13.8203H89.723C90.037 12.9955 90.5632 12.343 91.3019 11.8629C92.0405 11.3767 92.9361 11.1335 93.9887 11.1335C94.9735 11.1335 95.8322 11.349 96.5647 11.7798C97.2971 12.2107 97.8665 12.8262 98.2728 13.6264C98.679 14.4205 98.8821 15.3684 98.8821 16.4702V25.5H94.9489V17.1719C94.9551 16.304 94.7335 15.6269 94.2841 15.1406C93.8348 14.6482 93.2162 14.402 92.4283 14.402C91.8989 14.402 91.4311 14.5159 91.0249 14.7436C90.6248 14.9714 90.3109 15.3037 90.0831 15.7408C89.8615 16.1716 89.7477 16.6918 89.7415 17.3011ZM107.665 25.777C106.206 25.777 104.951 25.4815 103.898 24.8906C102.852 24.2936 102.045 23.4503 101.479 22.3608C100.913 21.2652 100.63 19.9695 100.63 18.4737C100.63 17.0149 100.913 15.7346 101.479 14.6328C102.045 13.531 102.842 12.6723 103.87 12.0568C104.905 11.4413 106.117 11.1335 107.508 11.1335C108.444 11.1335 109.315 11.2843 110.121 11.5859C110.934 11.8814 111.641 12.3277 112.245 12.9247C112.854 13.5218 113.328 14.2727 113.667 15.1776C114.005 16.0762 114.174 17.1288 114.174 18.3352V19.4155H102.199V16.978H110.472C110.472 16.4117 110.349 15.91 110.103 15.473C109.856 15.036 109.515 14.6944 109.078 14.4482C108.647 14.1958 108.145 14.0696 107.573 14.0696C106.976 14.0696 106.446 14.2081 105.985 14.4851C105.529 14.7559 105.172 15.1222 104.914 15.5838C104.655 16.0393 104.523 16.5471 104.517 17.1072V19.4247C104.517 20.1264 104.646 20.7327 104.905 21.2436C105.169 21.7545 105.542 22.1484 106.022 22.4254C106.502 22.7024 107.071 22.8409 107.73 22.8409C108.167 22.8409 108.567 22.7794 108.93 22.6562C109.293 22.5331 109.604 22.3485 109.863 22.1023C110.121 21.8561 110.318 21.5545 110.454 21.1974L114.091 21.4375C113.907 22.3116 113.528 23.0748 112.956 23.7273C112.389 24.3736 111.657 24.8783 110.758 25.2415C109.866 25.5985 108.835 25.777 107.665 25.777Z"
-                class="fill-white"
-                fill="currentColor"
-              />
-              <path
-                d="M1 29.5V16.5C1 9.87258 6.37258 4.5 13 4.5C19.6274 4.5 25 9.87258 25 16.5C25 23.1274 19.6274 28.5 13 28.5H12"
-                class="stroke-white"
-                stroke="currentColor"
-                stroke-width="2"
-              />
-              <path
-                d="M5 29.5V16.66C5 12.1534 8.58172 8.5 13 8.5C17.4183 8.5 21 12.1534 21 16.66C21 21.1666 17.4183 24.82 13 24.82H12"
-                class="stroke-white"
-                stroke="currentColor"
-                stroke-width="2"
-              />
-              <circle
-                cx="13"
-                cy="16.5214"
-                r="5"
-                class="fill-white"
-                fill="currentColor"
-              />
+              <defs id="SvgjsDefs1027"></defs>
+              <g
+                id="SvgjsG1028"
+                featurekey="rootContainer"
+                transform="matrix(1,0,0,1,0,0)"
+                fill="transparent"
+              >
+                <rect
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="116"
+                  height="32"
+                  rx="10"
+                  ry="10"
+                ></rect>
+              </g>
+              <g
+                id="SvgjsG1029"
+                featurekey="PG4fjM-0"
+                transform="matrix(0.952461816404006,0,0,0.952461816404006,-0.051787555651063855,14.000068986529836)"
+                fill="#ffb400"
+              >
+                <g
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  stroke="black"
+                  font-family="Times New Roman"
+                  font-size="16"
+                  transform="scale(1 -1)"
+                >
+                  <g transform="translate(0 -96)">
+                    <g>
+                      <path
+                        d="M 21.633,34.925 C 24.973,46.855 40.837,53.71 46.922,66.223 C 49.866,72.279 48.49,83.461 43.464,87.939 C 43.197,88.178 42.09,90.326 43.217,89.521 C 54.416,81.327 63.521,70.509 59.309,60.068 C 53.464,45.577 38.409,38.34 38.519,23.585 C 38.566,17.447 43.088,12.523 48.838,7.375 L 49.073,6.299 C 34.143,10.56 17.742,21.028 21.633,34.925 Z M 59.314,18.723 C 67.987,26.524 73.282,31.263 71.043,40.298 C 73.766,36.119 76.295,30.323 74.135,25.806 C 72.203,21.769 70.28,18.956 63.244,15.02 C 59.515,12.935 56.712,10.677 54.37,6.898 C 54.248,10.853 55.011,14.852 59.314,18.723 Z M 49.686,32.153 C 53.003,38.255 57.845,42.622 62.538,48.882 C 65.869,53.325 68.92,60.704 65.731,66.728 L 65.937,67.016 C 70.824,61.556 71.028,52.654 69.495,46.059 C 67.086,35.69 58.5,31.5 53.511,23.918 C 51.557,20.948 50.446,17.311 51,13.5 C 45.461,18.021 46.717,26.69 49.686,32.153 Z"
+                        stroke-linejoin="miter"
+                        stroke-linecap="round"
+                        stroke="none"
+                        stroke-width="0.75"
+                        fill="#ffb400"
+                        marker-start="none"
+                        marker-end="none"
+                        stroke-miterlimit="79.8403193612775"
+                      ></path>
+                    </g>
+                  </g>
+                </g>
+              </g>
+              <g
+                id="SvgjsG1030"
+                featurekey="jxYttZ-0"
+                transform="matrix(2.8847774929776584,0,0,2.8847774929776584,88.11522319480689,20.46038733127386)"
+                fill="#f6f6f6"
+              >
+                <path d="M4.24 20 c-0.14 0 -0.24 -0.12 -0.24 -0.26 l0 -9.44 l-2.74 0 c-0.14 0 -0.26 -0.1 -0.26 -0.24 l0 -2.3 c0 -0.14 0.12 -0.26 0.26 -0.26 l8.58 0 c0.16 0 0.26 0.12 0.26 0.26 l0 2.3 c0 0.14 -0.1 0.24 -0.26 0.24 l-2.74 0 l0 9.44 c0 0.14 -0.12 0.26 -0.26 0.26 l-2.6 0 z M12.1 20 l0 -11.98 c0 -0.5 0.1 -0.6 0.26 -0.6 l8.76 0 c0.14 0 0.26 0.1 0.26 0.24 l0 2.26 c0 0.14 -0.12 0.26 -0.26 0.26 l-5.92 0 l0 2.08 l3.74 0 c0.14 0 0.26 0.12 0.26 0.26 l0 2.24 c0 0.14 -0.12 0.26 -0.26 0.26 l-3.74 0 l0 2.14 l5.9 0 c0.14 0 0.26 0.12 0.26 0.26 l0 2.24 c0 0.14 -0.12 0.26 -0.26 0.26 l-8.74 0 c-0.16 0 -0.26 -0.12 -0.26 0.08 z M29.68 20 c-1.18 0 -2.26 -0.28 -3.22 -0.84 c-0.96 -0.58 -1.72 -1.36 -2.26 -2.34 s-0.82 -2.08 -0.82 -3.3 c0 -1.18 0.28 -2.28 0.84 -3.26 c0.56 -0.96 1.34 -1.74 2.3 -2.3 c0.98 -0.56 2.08 -0.84 3.24 -0.84 c0.88 0 1.74 0.2 2.58 0.56 c0.84 0.38 1.56 0.88 2.16 1.52 c0.08 0.1 0.08 0.24 0 0.34 l-1.9 1.56 c-0.06 0.06 -0.12 0.1 -0.2 0.1 s-0.16 -0.04 -0.2 -0.1 c-1.02 -1.24 -2.66 -1.5 -4.04 -0.64 c-1.2 0.74 -1.64 2.1 -1.58 3.46 c0.06 1.38 1.06 2.56 2.38 2.96 c1.2 0.36 2.38 0.08 3.24 -0.84 c0.06 -0.04 0.12 -0.08 0.2 -0.06 c0.08 0 0.14 0.02 0.18 0.08 l1.94 1.36 c0.08 0.1 0.08 0.24 0 0.34 c-0.64 0.68 -1.4 1.24 -2.24 1.64 c-0.86 0.4 -1.74 0.6 -2.6 0.6 z M36.839999999999996 20 c-0.14 0 -0.26 -0.12 -0.26 -0.26 l0 -11.98 c0 -0.14 0.12 -0.26 0.26 -0.26 l2.6 0 c0.14 0 0.26 0.12 0.26 0.26 l0 4.92 l4.52 0 l0 -4.92 c0 -0.14 0.12 -0.26 0.26 -0.26 l2.6 0 c0.14 0 0.26 0.12 0.26 0.26 l0 11.98 c0 0.14 -0.12 0.26 -0.26 0.26 l-2.6 0 c-0.14 0 -0.26 -0.12 -0.26 -0.26 l0 -4.3 l-4.52 0 l0 4.3 c0 0.14 -0.12 0.26 -0.26 0.26 l-2.6 0 z M54.99999999999999 20 c-0.14 0 -0.26 -0.12 -0.26 -0.26 l0 -11.98 c0 -0.14 0.12 -0.26 0.26 -0.26 l2.36 0 c0.08 0 0.16 0.04 0.22 0.1 l4.6 7.1 l0 -6.94 c0 -0.14 0.12 -0.26 0.26 -0.26 l2.46 0 c0.14 0 0.26 0.12 0.26 0.26 l0 11.98 c0 0.14 -0.12 0.26 -0.26 0.26 l-2.36 0 c-0.08 0 -0.16 -0.04 -0.22 -0.1 l-4.58 -7.06 l0 6.9 c0 0.14 -0.12 0.26 -0.26 0.26 l-2.48 0 z M73.6 20 c-1.2 0 -2.3 -0.28 -3.26 -0.84 c-0.98 -0.56 -1.76 -1.36 -2.34 -2.32 c-0.56 -0.98 -0.84 -2.1 -0.84 -3.3 c0 -1.18 0.28 -2.28 0.84 -3.26 c0.58 -0.98 1.34 -1.76 2.32 -2.32 s2.08 -0.84 3.28 -0.84 c1.18 0 2.28 0.28 3.26 0.84 s1.76 1.34 2.32 2.32 c0.58 0.98 0.86 2.08 0.86 3.26 c0 1.2 -0.28 2.3 -0.86 3.28 c-0.56 0.98 -1.34 1.76 -2.32 2.34 c-0.98 0.56 -2.08 0.84 -3.26 0.84 z M73.64 17.12 c0.58 0 1.12 -0.16 1.6 -0.46 c0.5 -0.32 0.9 -0.74 1.18 -1.3 c0.3 -0.54 0.44 -1.16 0.44 -1.82 c0 -0.64 -0.14 -1.26 -0.44 -1.8 c-0.28 -0.54 -0.68 -0.96 -1.18 -1.28 c-0.48 -0.3 -1.02 -0.46 -1.6 -0.46 c-0.6 0 -1.14 0.16 -1.64 0.46 c-0.52 0.32 -0.92 0.74 -1.22 1.28 c-0.3 0.56 -0.44 1.16 -0.44 1.8 c0 0.66 0.14 1.28 0.44 1.82 c0.32 0.54 0.72 0.98 1.22 1.28 c0.5 0.32 1.04 0.48 1.64 0.48 z M85.7 20 c-0.1 0 -0.2 -0.06 -0.24 -0.16 l-4 -12 c-0.04 -0.08 -0.02 -0.16 0.02 -0.24 c0.06 -0.06 0.14 -0.1 0.22 -0.1 l2.8 0 c0.1 0 0.2 0.06 0.24 0.18 l2.38 7.82 l2.4 -7.82 c0.04 -0.12 0.14 -0.18 0.24 -0.18 l2.68 0 c0.08 0 0.16 0.04 0.22 0.1 c0.04 0.08 0.06 0.16 0.02 0.24 l-4.06 12 c-0.04 0.1 -0.12 0.16 -0.24 0.16 l-2.68 0 z M92.36000000000001 20 c-0.08 0 -0.16 -0.04 -0.2 -0.12 c-0.06 -0.06 -0.06 -0.16 -0.04 -0.24 l4.66 -11.98 c0.04 -0.1 0.14 -0.16 0.24 -0.16 l2.68 0 c0.1 0 0.2 0.06 0.24 0.16 l4.58 11.98 c0.02 0.08 0.02 0.16 -0.04 0.24 c-0.04 0.08 -0.12 0.12 -0.2 0.12 l-2.78 0 c-0.1 0 -0.2 -0.06 -0.24 -0.16 l-0.74 -1.84 l-4.5 0.02 l-0.74 1.82 c-0.04 0.1 -0.14 0.16 -0.24 0.16 l-2.68 0 z M96.84 15.5 l2.88 0 l-1.44 -4.24 z"></path>
+              </g>
             </svg>
           </a>
           {/* <!-- End Logo --> */}
@@ -52,10 +80,10 @@ const Header = () => {
         <div class="md:order-3 flex items-center gap-x-3">
           <div class="md:ps-3">
             <a
-              class="group inline-flex items-center gap-x-2 py-2 px-3 bg-[#ff0] font-medium text-sm text-nowrap text-neutral-800 rounded-full focus:outline-hidden"
+              class="group inline-flex items-center gap-x-2 py-2 px-3 bg-[#ffb400] md:font-medium font-bold text-sm text-nowrap text-neutral-800 rounded-full focus:outline-hidden"
               href="#"
             >
-              Request demo
+              Conatct Now
             </a>
           </div>
 
@@ -123,13 +151,13 @@ const Header = () => {
               class="pe-3 ps-px sm:px-3 md:py-4 text-sm text-white hover:text-neutral-300 focus:outline-hidden focus:text-neutral-300"
               href="#"
             >
-              Stories
+              Projects
             </a>
             <a
               class="pe-3 ps-px sm:px-3 md:py-4 text-sm text-white hover:text-neutral-300 focus:outline-hidden focus:text-neutral-300"
               href="#"
             >
-              Reviews
+              Testimonials
             </a>
             <a
               class="pe-3 ps-px sm:px-3 md:py-4 text-sm text-white hover:text-neutral-300 focus:outline-hidden focus:text-neutral-300"
@@ -139,289 +167,7 @@ const Header = () => {
             </a>
 
             {/* <!-- Dropdown Link --> */}
-            <div class="hs-dropdown [--strategy:static] md:[--strategy:absolute] [--adaptive:none] md:[--trigger:hover] [--auto-close:inside] md:inline-block">
-              {/* <!-- Link Button --> */}
-              <button
-                id="hs-pro-anpd"
-                type="button"
-                class="hs-dropdown-toggle md:px-3 md:py-4 w-full md:w-auto flex items-center text-sm text-white hover:text-neutral-300 focus:outline-hidden focus:text-neutral-300"
-                aria-haspopup="menu"
-                aria-expanded="false"
-                aria-label="Dropdown"
-              >
-                Product
-                <svg
-                  class="hs-dropdown-open:-rotate-180 md:hs-dropdown-open:rotate-0 duration-300 ms-auto md:ms-1 shrink-0 size-3.5"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path d="m6 9 6 6 6-6" />
-                </svg>
-              </button>
-              {/* <!-- End Link Button --> */}
-
-              {/* <!-- Dropdown Menu --> */}
-              <div
-                class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] lg:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 relative w-full md:w-150 hidden z-10 top-full end-0 rounded-2xl bg-neutral-800 p-1 before:absolute before:-top-4 before:start-0 before:w-full before:h-5 md:after:hidden mt-2 md:mt-0"
-                role="menu"
-                aria-orientation="vertical"
-                aria-labelledby="hs-pro-anpd"
-              >
-                <div class="flex flex-col gap-y-1">
-                  {/* <!-- Grid --> */}
-                  <div class="grid grid-cols-1 md:grid-cols-2 gap-1">
-                    <div class="p-5 min-h-50 flex flex-col justify-between bg-neutral-900 rounded-t-xl md:rounded-tr-none md:rounded-tl-xl">
-                      {/* <!-- Heading --> */}
-                      <div class="mb-5">
-                        <a
-                          class="group flex items-center gap-x-2 font-medium text-sm text-neutral-200 hover:text-[#ff0] focus:text-[#ff0] focus:outline-hidden"
-                          href="#"
-                        >
-                          Build
-                          <span class="ms-auto size-6 flex shrink-0 justify-center items-center bg-[#ff0] text-black rounded-sm">
-                            <svg
-                              class="shrink-0 size-4 transition group-hover:translate-x-0.5 group-focus:translate-x-0.5"
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            >
-                              <path d="M5 12h14"></path>
-                              <path d="m12 5 7 7-7 7"></path>
-                            </svg>
-                          </span>
-                        </a>
-                      </div>
-                      {/* <!-- End Heading --> */}
-
-                      {/* <!-- List --> */}
-                      <ul class="flex flex-col">
-                        <li class="py-2 first:pt-0 last:pb-0 first:border-t-0 border-t border-neutral-800">
-                          <a
-                            class="group flex items-center gap-x-2 font-medium text-sm text-neutral-200 hover:text-[#ff0] focus:text-[#ff0] focus:outline-hidden"
-                            href="#"
-                          >
-                            <span class="size-1 bg-[#ff0] rounded-full"></span>
-                            Websites
-                            <span class="ms-auto size-6 flex shrink-0 justify-center items-center">
-                              <svg
-                                class="shrink-0 size-4 transition group-hover:translate-x-0.5 group-focus:translate-x-0.5"
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="24"
-                                height="24"
-                                viewBox="0 0 24 24"
-                                fill="none"
-                                stroke="currentColor"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                              >
-                                <path d="M5 12h14"></path>
-                                <path d="m12 5 7 7-7 7"></path>
-                              </svg>
-                            </span>
-                          </a>
-                        </li>
-
-                        <li class="py-2 first:pt-0 last:pb-0 first:border-t-0 border-t border-neutral-800">
-                          <a
-                            class="group flex items-center gap-x-2 font-medium text-sm text-neutral-200 hover:text-[#ff0] focus:text-[#ff0] focus:outline-hidden"
-                            href="#"
-                          >
-                            <span class="size-1 bg-[#ff0] rounded-full"></span>
-                            Mobile apps
-                            <span class="ms-auto size-6 flex shrink-0 justify-center items-center">
-                              <svg
-                                class="shrink-0 size-4 transition group-hover:translate-x-0.5 group-focus:translate-x-0.5"
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="24"
-                                height="24"
-                                viewBox="0 0 24 24"
-                                fill="none"
-                                stroke="currentColor"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                              >
-                                <path d="M5 12h14"></path>
-                                <path d="m12 5 7 7-7 7"></path>
-                              </svg>
-                            </span>
-                          </a>
-                        </li>
-
-                        <li class="py-2 first:pt-0 last:pb-0 first:border-t-0 border-t border-neutral-800">
-                          <a
-                            class="group flex items-center gap-x-2 font-medium text-sm text-neutral-200 hover:text-[#ff0] focus:text-[#ff0] focus:outline-hidden"
-                            href="#"
-                          >
-                            <span class="size-1 bg-[#ff0] rounded-full"></span>
-                            Pages
-                            <span class="ms-auto size-6 flex shrink-0 justify-center items-center">
-                              <svg
-                                class="shrink-0 size-4 transition group-hover:translate-x-0.5 group-focus:translate-x-0.5"
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="24"
-                                height="24"
-                                viewBox="0 0 24 24"
-                                fill="none"
-                                stroke="currentColor"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                              >
-                                <path d="M5 12h14"></path>
-                                <path d="m12 5 7 7-7 7"></path>
-                              </svg>
-                            </span>
-                          </a>
-                        </li>
-                      </ul>
-                      {/* <!-- End List --> */}
-                    </div>
-                    {/* <!-- End Col --> */}
-
-                    <div class="p-5 min-h-50 flex flex-col justify-between bg-neutral-900 md:rounded-tr-xl">
-                      {/* <!-- Heading --> */}
-                      <div class="mb-5">
-                        <a
-                          class="group flex items-center gap-x-3 font-medium text-sm text-neutral-200 hover:text-[#ff0] focus:text-[#ff0] focus:outline-hidden"
-                          href="#"
-                        >
-                          Resources
-                          <span class="ms-auto size-6 flex shrink-0 justify-center items-center bg-[#ff0] text-black rounded-sm">
-                            <svg
-                              class="shrink-0 size-4 transition group-hover:translate-x-0.5 group-focus:translate-x-0.5"
-                              xmlns="http://www.w3.org/2000/svg"
-                              width="24"
-                              height="24"
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              stroke="currentColor"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            >
-                              <path d="M5 12h14"></path>
-                              <path d="m12 5 7 7-7 7"></path>
-                            </svg>
-                          </span>
-                        </a>
-                      </div>
-                      {/* <!-- End Heading --> */}
-
-                      {/* <!-- List --> */}
-                      <ul class="flex flex-col">
-                        <li class="py-2 first:pt-0 last:pb-0 first:border-t-0 border-t border-neutral-800">
-                          <a
-                            class="group flex items-center gap-x-2 font-medium text-sm text-neutral-200 hover:text-[#ff0] focus:text-[#ff0] focus:outline-hidden"
-                            href="#"
-                          >
-                            <span class="size-1 bg-[#ff0] rounded-full"></span>
-                            Documentation
-                            <span class="ms-auto size-6 flex shrink-0 justify-center items-center">
-                              <svg
-                                class="shrink-0 size-4 transition group-hover:translate-x-0.5 group-focus:translate-x-0.5"
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="24"
-                                height="24"
-                                viewBox="0 0 24 24"
-                                fill="none"
-                                stroke="currentColor"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                              >
-                                <path d="M5 12h14"></path>
-                                <path d="m12 5 7 7-7 7"></path>
-                              </svg>
-                            </span>
-                          </a>
-                        </li>
-
-                        <li class="py-2 first:pt-0 last:pb-0 first:border-t-0 border-t border-neutral-800">
-                          <a
-                            class="group flex items-center gap-x-2 font-medium text-sm text-neutral-200 hover:text-[#ff0] focus:text-[#ff0] focus:outline-hidden"
-                            href="#"
-                          >
-                            <span class="size-1 bg-[#ff0] rounded-full"></span>
-                            Support
-                            <span class="ms-auto size-6 flex shrink-0 justify-center items-center">
-                              <svg
-                                class="shrink-0 size-4 transition group-hover:translate-x-0.5 group-focus:translate-x-0.5"
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="24"
-                                height="24"
-                                viewBox="0 0 24 24"
-                                fill="none"
-                                stroke="currentColor"
-                                stroke-width="2"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                              >
-                                <path d="M5 12h14"></path>
-                                <path d="m12 5 7 7-7 7"></path>
-                              </svg>
-                            </span>
-                          </a>
-                        </li>
-                      </ul>
-                      {/* <!-- End List --> */}
-                    </div>
-                    {/* <!-- End Col --> */}
-                  </div>
-                  {/* <!-- End Grid --> */}
-
-                  {/* <!-- Footer --> */}
-                  <div class="p-2 bg-neutral-900 rounded-b-xl">
-                    <div class="flex flex-wrap justify-between items-center gap-1">
-                      <a
-                        class="py-1.5 ps-3 pe-2 group flex items-center gap-x-1 font-medium text-sm text-neutral-200 hover:text-[#ff0] focus:text-[#ff0] focus:outline-hidden"
-                        href="#"
-                      >
-                        Sessions 2025 &dash; Watch the product keynote live
-                        <svg
-                          class="shrink-0 size-4 transition group-hover:translate-x-0.5 group-focus:translate-x-0.5"
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        >
-                          <path d="M5 12h14"></path>
-                          <path d="m12 5 7 7-7 7"></path>
-                        </svg>
-                      </a>
-
-                      <a
-                        class="py-1.5 px-3 font-medium text-sm text-[#ff0] rounded-full hover:bg-neutral-800 focus:outline-hidden focus:bg-neutral-800"
-                        href="#"
-                      >
-                        Changelog
-                      </a>
-                    </div>
-                  </div>
-                  {/* <!-- End Footer --> */}
-                </div>
-              </div>
-              {/* <!-- End Dropdown Menu --> */}
-            </div>
+            {/*  */}
             {/* <!-- End Dropdown Link --> */}
           </div>
         </div>

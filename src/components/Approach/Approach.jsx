@@ -141,7 +141,7 @@ const Approach = () => {
             {/* End Item */}
 
             <a
-              className="group inline-flex items-center gap-x-2 py-2 px-3 bg-[#ff0] font-medium text-sm text-neutral-800 rounded-full focus:outline-hidden"
+              className="group inline-flex items-center gap-x-2 py-2 px-3 bg-gradient-to-tl from-[#ffb400] to-[#ffd700] hover:from-[#ffd700] hover:to-[#ffb400] focus:outline-hidden focus:from-[#ffd700] focus:to-[#ffb400] border border-transparent font-medium text-sm text-neutral-800 rounded-full"
               href="#"
             >
               <svg

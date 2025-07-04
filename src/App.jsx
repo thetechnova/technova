@@ -6,16 +6,18 @@ import Approach from "../src/components/Approach/Approach";
 import Testimonials from "../src/components/Testimonials/Testimonials";
 import Projects from "../src/components/Projects/Projects";
 import Contacts from "../src/components/Contacts/Contacts";
+import Technology from "../src/components/Technology/Technology";
 
 function App() {
   return (
     <>
       <Header />
       <Hero />
-      {/* <Projects /> */}
-      {/* <Approach /> */}
+      <Technology />
+      {/* <Projects />/ */}
+      <Approach />
       <Testimonials />
-      {/* <Contacts /> */}
+      <Contacts />
       <Footer />
     </>
   );

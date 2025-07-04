@@ -6,8 +6,8 @@ const Hero = () => {
       <div className="relative overflow-hidden before:absolute before:top-0 before:start-1/2 before:bg-[url('https://preline.co/assets/svg/examples-dark/squared-bg-element.svg')] before:bg-no-repeat before:bg-top before:size-full before:-z-1 before:transform before:-translate-x-1/2">
         <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-10">
           <div className="mt-5 max-w-xl text-center mx-auto">
-            <h1 className="block font-bold text-4xl md:text-5xl lg:text-5xl text-neutral-200">
-              Our Code. Live in Days.
+            <h1 className="block font-bold text-4xl md:text-6xl lg:text-5xl text-neutral-200">
+              Your Idea. Our Code. Live in Days.
             </h1>
           </div>
 

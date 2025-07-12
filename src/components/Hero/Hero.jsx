@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-10">
           <div className="mt-5 max-w-xl text-center mx-auto">
             <h1 className="block font-bold text-4xl md:text-6xl lg:text-5xl text-neutral-200">
-              Your Idea. Our Code. Live in Days.
+              Your Idea. Our Code. <br /> Live in Days.
             </h1>
           </div>
 

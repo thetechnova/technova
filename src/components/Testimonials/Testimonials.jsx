@@ -1,4 +1,6 @@
-import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+import "swiper/css";
 
 const Testimonials = () => {
   return (
@@ -15,9 +17,27 @@ const Testimonials = () => {
           </p>
         </div>
         {/* Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <Swiper
+          modules={[Autoplay]}
+          spaceBetween={30}
+          slidesPerView={3}
+          loop={true}
+          autoplay={{
+            delay: 0,
+            disableOnInteraction: false,
+          }}
+          speed={5000}
+          allowTouchMove={false}
+          style={{ transitionTimingFunction: "linear" }}
+          breakpoints={{
+            320: { slidesPerView: 1 },
+            640: { slidesPerView: 2 },
+          }}
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 TechNova-Swiper shadow-[inset_30px_0_30px_rgba(0,0,0,0.1),inset_-30px_0_30px_rgba(0,0,0,0.1)]"
+        >
           {/* Card */}
-          <div className="flex flex-col border shadow-2xs rounded-xl bg-neutral-900 border-neutral-700">
+          <div className="absolute top-0 left-0 w-10 h-full bg-gradient-to-r from-50% to-transparent blur-sm z-20 pointer-events-none" />
+          <SwiperSlide className="flex flex-col border shadow-2xs rounded-xl bg-neutral-900 border-neutral-700 min-h-100">
             <div className="flex-auto p-4 md:p-6">
               <p className="mt-3 sm:mt-6 text-base md:text-xl text-white">
                 <em>
@@ -37,11 +57,11 @@ const Testimonials = () => {
                 Startup CTO – Tech Product (SaaS)
               </p>
             </div>
-          </div>
+          </SwiperSlide>
           {/* End Card */}
 
           {/* Card */}
-          <div className="flex flex-col border shadow-2xs rounded-xl bg-neutral-900 border-neutral-700">
+          <SwiperSlide className="flex flex-col border shadow-2xs rounded-xl bg-neutral-900 border-neutral-700 min-h-100">
             <div className="flex-auto p-4 md:p-6">
               <p className="mt-3 sm:mt-6 text-base md:text-xl text-white">
                 <em>
@@ -61,11 +81,11 @@ const Testimonials = () => {
                 D2C Brand Owner – E-commerce
               </p>
             </div>
-          </div>
+          </SwiperSlide>
           {/* End Card */}
 
           {/* Card */}
-          <div className="flex flex-col border shadow-2xs rounded-xl bg-neutral-900 border-neutral-700">
+          <SwiperSlide className="flex flex-col border shadow-2xs rounded-xl bg-neutral-900 border-neutral-700 min-h-100">
             <div className="flex-auto p-4 md:p-6">
               <p className="mt-3 sm:mt-6 text-base md:text-xl text-white">
                 <em>
@@ -86,10 +106,10 @@ const Testimonials = () => {
                 Agency Partner – Design Studio Collaboration
               </p>
             </div>
-          </div>
+          </SwiperSlide>
           {/* End Card */}
           {/* Card */}
-          <div className="flex flex-col border shadow-2xs rounded-xl bg-neutral-900 border-neutral-700">
+          <SwiperSlide className="flex flex-col border shadow-2xs rounded-xl bg-neutral-900 border-neutral-700 min-h-100">
             <div className="flex-auto p-4 md:p-6">
               <p className="mt-3 sm:mt-6 text-base md:text-xl text-white">
                 <em>
@@ -109,10 +129,10 @@ const Testimonials = () => {
                 Solo Founder – Service Business
               </p>
             </div>
-          </div>
+          </SwiperSlide>
           {/* End Card */}
           {/* Card */}
-          <div className="flex flex-col border shadow-2xs rounded-xl bg-neutral-900 border-neutral-700">
+          <SwiperSlide className="flex flex-col border shadow-2xs rounded-xl bg-neutral-900 border-neutral-700 min-h-100">
             <div className="flex-auto p-4 md:p-6">
               <p className="mt-3 sm:mt-6 text-base md:text-xl text-white">
                 <em>
@@ -132,9 +152,9 @@ const Testimonials = () => {
                 Product Manager – Corporate Client
               </p>
             </div>
-          </div>
+          </SwiperSlide>
           {/* End Card */}
-        </div>
+        </Swiper>
         {/* End Grid */}
       </div>
       // {/* End Testimonials */}

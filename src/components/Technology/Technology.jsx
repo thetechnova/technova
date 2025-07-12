@@ -1,8 +1,11 @@
-import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+import "swiper/css";
 
 const Technology = () => {
   return (
     //  {/* Clients */}
+
     <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
       {/* Title */}
       <div className="sm:w-1/2 xl:w-1/3 mx-auto text-center mb-6 md:mb-12">
@@ -13,10 +16,29 @@ const Technology = () => {
       {/* End Title */}
 
       {/* Grid */}
-      <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 gap-3 lg:gap-6">
-        <div className="p-4 md:p-7 rounded-lg bg-neutral-800">
+      <Swiper
+        modules={[Autoplay]}
+        spaceBetween={30}
+        slidesPerView={5}
+        loop={true}
+        autoplay={{
+          delay: 0,
+          disableOnInteraction: false,
+        }}
+        speed={3000}
+        allowTouchMove={true}
+        breakpoints={{
+          320: { slidesPerView: 2 },
+          640: { slidesPerView: 3 },
+          768: { slidesPerView: 4 },
+          1024: { slidesPerView: 5 },
+        }}
+        style={{ transitionTimingFunction: "linear" }}
+        className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 gap-3 lg:gap-6 TechNova-Swiper items-center place-content-center"
+      >
+        <SwiperSlide className="py-1 md:py-1 rounded-lg bg-neutral-800 md:min-h-20">
           <svg
-            className="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto text-neutral-200"
+            className="py-3 lg:py-5 w-16 h-[50%] md:w-20 lg:w-24 mx-auto text-neutral-200"
             enable-background="new 0 0 2499 614"
             viewBox="0 0 2499 614"
             xmlns="http://www.w3.org/2000/svg"
@@ -26,11 +48,11 @@ const Technology = () => {
               fill="currentColor"
             />
           </svg>
-        </div>
+        </SwiperSlide>
 
-        <div className="p-4 md:p-7 rounded-lg bg-neutral-800">
+        <SwiperSlide className="py-1 md:py-1 rounded-lg bg-neutral-800 md:min-h-20">
           <svg
-            className="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto"
+            className="py-3 lg:py-5 w-16 h-[50%] md:w-20 lg:w-24 mx-auto"
             fill="none"
             viewBox="-0.3 0 320.3999999999999 99.9"
             xmlns="http://www.w3.org/2000/svg"
@@ -42,9 +64,9 @@ const Technology = () => {
               fill="#ff5a5f"
             />
           </svg>
-        </div>
+        </SwiperSlide>
 
-        <div className="p-4 md:p-7 rounded-lg bg-neutral-800">
+        <SwiperSlide className="py-1 md:py-1 rounded-lg bg-neutral-800 md:min-h-20">
           <svg
             className="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto"
             viewBox="0 -8.881784197001252e-16 267.51517722360785 65.24679557585003"
@@ -57,11 +79,11 @@ const Technology = () => {
               fill="#0B65C2"
             />
           </svg>
-        </div>
+        </SwiperSlide>
 
-        <div className="p-4 md:p-7  rounded-lg bg-neutral-800">
+        <SwiperSlide className="py-1 md:py-1  rounded-lg bg-neutral-800 md:min-h-20">
           <svg
-            className="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto"
+            className="py-3 lg:py-5 w-16 h-[50%] md:w-20 lg:w-24 mx-auto"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 127 33"
@@ -83,11 +105,11 @@ const Technology = () => {
               fill="currentColor"
             />
           </svg>
-        </div>
+        </SwiperSlide>
 
-        <div className="p-4 md:p-7 rounded-lg bg-neutral-800">
+        <SwiperSlide className="py-1 md:py-1 rounded-lg bg-neutral-800 md:min-h-20">
           <svg
-            className="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto"
+            className="py-3 lg:py-5 w-16 h-[50%] md:w-20 lg:w-24 mx-auto"
             xmlns="http://www.w3.org/2000/svg"
             x="0"
             y="0"
@@ -117,11 +139,11 @@ const Technology = () => {
               fill="#280"
             />
           </svg>
-        </div>
+        </SwiperSlide>
 
-        <div className="p-4 md:p-7 rounded-lg bg-neutral-800">
+        <SwiperSlide className="py-1 md:py-1 rounded-lg bg-neutral-800 md:min-h-20">
           <svg
-            className="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto"
+            className="py-3 lg:py-5 w-16 h-[50%] md:w-20 lg:w-24 mx-auto"
             width="2500"
             height="728"
             viewBox="0 0 512 149"
@@ -137,11 +159,11 @@ const Technology = () => {
               fill="#F8761F"
             />
           </svg>
-        </div>
+        </SwiperSlide>
 
-        <div className="p-4 md:p-7 rounded-lg bg-neutral-800">
+        <SwiperSlide className="py-1 md:py-1 rounded-lg bg-neutral-800 md:min-h-20">
           <svg
-            className="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto"
+            className="py-3 lg:py-5 w-16 h-[50%] md:w-20 lg:w-24 mx-auto"
             xmlns="http://www.w3.org/2000/svg"
             width="2500"
             height="534"
@@ -165,11 +187,11 @@ const Technology = () => {
               fill="#fbbc09"
             />
           </svg>
-        </div>
+        </SwiperSlide>
 
-        <div className="p-4 md:p-7 rounded-lg bg-neutral-800">
+        <SwiperSlide className="py-1 md:py-1 rounded-lg bg-neutral-800 md:min-h-20">
           <svg
-            className="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto text-neutral-200"
+            className="py-3 lg:py-5 w-16 h-[50%] md:w-20 lg:w-24 mx-auto text-neutral-200"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="-4.126838974812941 0.900767442746961 939.436838974813 230.18142889845947"
             width="2500"
@@ -180,35 +202,11 @@ const Technology = () => {
               fill="currentColor"
             />
           </svg>
-        </div>
+        </SwiperSlide>
 
-        <div className="p-4 md:p-7 rounded-lg bg-neutral-800">
+        <SwiperSlide className="p-4 md:py-1 rounded-lg bg-neutral-800 md:min-h-20">
           <svg
-            className="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto"
-            xmlns="http://www.w3.org/2000/svg"
-            width="2500"
-            height="1036"
-            viewBox="0 -6.166 294.398 121.975"
-          >
-            <path d="M12.139 90.511c-3.939 0-7.799-.479-10.938-1.292l.487-8.277c3.053 1.123 7.313 2.012 11.254 2.012 5.952 0 10.775-2.492 10.775-8.359C23.718 63.172 0 68.002 0 50.466c0-9.325 7.315-15.834 19.941-15.834 3.214 0 6.51.397 9.809.959l-.485 7.802c-3.132-.963-6.591-1.527-9.806-1.527-6.754 0-10.211 3.134-10.211 7.638 0 10.855 23.72 6.839 23.72 23.798-.005 9.973-7.882 17.209-20.829 17.209M54.106 90.264c-2.249 0-3.938-.076-6.03-.479v17.397h-8.601V49.746h8.12c0 2.094-.082 5.309-.484 7.476h.162c2.25-5.068 6.833-8.283 12.944-8.283 9.487 0 14.712 6.75 14.712 18.814.001 14.076-7.473 22.511-20.823 22.511m3.861-34.246c-6.434 0-9.892 7.558-9.892 14.384v12.312c1.852.562 3.86.804 6.272.804 6.833 0 11.497-4.182 11.497-14.958.001-8.039-2.49-12.542-7.877-12.542zM102.519 57.381C94.561 55.936 90.7 61.485 90.7 73.466v16.238h-8.606V49.746H90.3c0 2.246-.246 5.791-.809 8.844h.162c1.771-5.388 5.79-10.377 13.271-9.651l-.405 8.442M114.803 43.797c-3.056 0-5.55-2.414-5.55-5.393 0-2.971 2.494-5.385 5.55-5.385 2.974 0 5.467 2.333 5.467 5.385 0 2.979-2.493 5.393-5.467 5.393m4.26 45.907h-8.6V49.746h8.6v39.958zM154.449 89.704V63.975c0-4.982-1.374-7.875-5.951-7.875-6.03 0-10.457 6.345-10.457 14.302v19.303h-8.603V49.746h8.203c0 2.094-.162 5.546-.563 7.796l.082.075c2.33-5.141 7.157-8.68 13.91-8.68 9.084 0 11.9 5.711 11.9 12.787v27.979h-8.521M186.675 90.425c-8.524 0-11.1-3.294-11.1-12.214V56.417h-7.634v-6.671h7.634V37.04l8.523-2.333v15.039h10.532v6.671h-10.448v19.137c0 5.954 1.205 7.558 5.224 7.558 1.769 0 3.699-.24 5.226-.643v7.076c-2.331.486-5.307.88-7.957.88" />
-            <path
-              d="M233.712 78.636c11.72-15.086 20.938-32.809 20.938-45.537 0-6.652-4.765-11.295-10.978-14.823.123 13.831-4.668 46.263-9.96 60.36M195.279 115.809c27.47-9.188 67.29-30.598 94.985-49.725 2.324-1.6 4.135-3.085 4.135-5.685 0-4.519-8.275-10.576-12.292-12.987-21.792 22.653-65.163 56.596-86.828 68.397"
-              fill="#ffdd05"
-            />
-            <path
-              d="M220.76 96.567c16.938-11.709 41.545-33.739 49.873-45.727 1.963-2.82 3.416-4.454 3.416-7.405 0-4.839-5.644-8.382-9.703-10.849-9.727 22.924-31.579 51.469-43.586 63.981M236.192 64.087c2.191-14.477.903-31.952-1.894-42.913-1.521-5.969-6.901-12.706-11.88-14.812 6.526 18.522 12.128 44.898 13.774 57.725"
-              fill="#ffdd05"
-            />
-            <path
-              d="M231.367 43.779C226.235 29.91 213.446.998 194.633-6.165c12.247 13.516 30.417 40.337 36.734 49.944"
-              fill="#ffdd05"
-            />
-          </svg>
-        </div>
-
-        <div className="p-4 md:p-7 rounded-lg bg-neutral-800">
-          <svg
-            className="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 mx-auto"
+            className="py-3 lg:py-5 w-16 h-[50%] md:w-20 lg:w-24 mx-auto"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 2500 816"
@@ -245,8 +243,9 @@ const Technology = () => {
               </clipPath>
             </defs>
           </svg>
-        </div>
-      </div>
+        </SwiperSlide>
+      </Swiper>
+
       {/* End Grid */}
     </div>
     // {/* End Clients */}

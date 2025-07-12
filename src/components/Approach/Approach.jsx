@@ -55,11 +55,9 @@ const Approach = () => {
               {/* Right Content */}
               <div className="grow pt-0.5 pb-8 sm:pb-12">
                 <p className="text-sm lg:text-base text-neutral-400">
-                  <span className="text-white">
-                    Market Research and Analysis:
-                  </span>
-                  Identify your target audience and understand their needs,
-                  preferences, and behaviors.
+                  <span className="text-white">Discovery:</span> We listen. You
+                  talk. We define exactly what needs to be built — no tech
+                  jargon, no guesswork.
                 </p>
               </div>
               {/* End Right Content */}
@@ -81,11 +79,9 @@ const Approach = () => {
               {/* Right Content */}
               <div className="grow pt-0.5 pb-8 sm:pb-12">
                 <p className="text-sm lg:text-base text-neutral-400">
-                  <span className="text-white">
-                    Product Development and Testing:
-                  </span>
-                  Develop digital products or services that address the needs
-                  and preferences of your target audience.
+                  <span className="text-white">Scope & Flow:</span> We outline
+                  the site/app flow, set milestones, and finalize timelines.
+                  Straightforward and transparent.
                 </p>
               </div>
               {/* End Right Content */}
@@ -107,9 +103,9 @@ const Approach = () => {
               {/* Right Content */}
               <div className="grow pt-0.5 pb-8 sm:pb-12">
                 <p className="text-sm md:text-base text-neutral-400">
-                  <span className="text-white">Marketing and Promotion:</span>
-                  Develop a comprehensive marketing strategy to promote your
-                  digital products or services.
+                  <span className="text-white">Development:</span> We write
+                  clean, scalable code and build the actual product — frontend,
+                  backend, or both.
                 </p>
               </div>
               {/* End Right Content */}
@@ -131,9 +127,33 @@ const Approach = () => {
               {/* Right Content */}
               <div className="grow pt-0.5 pb-8 sm:pb-12">
                 <p className="text-sm md:text-base text-neutral-400">
-                  <span className="text-white">Launch and Optimization:</span>
-                  Launch your digital products or services to the market,
-                  closely monitoring their performance and user feedback.
+                  <span className="text-white">Feedback Loops: </span> You get
+                  weekly builds, not surprises. Fast iterations, real-time
+                  updates, and async check-ins.
+                </p>
+              </div>
+              {/* End Right Content */}
+            </div>
+            {/* End Item */}
+
+            {/* Item */}
+            <div className="flex gap-x-5 ms-1">
+              {/* Icon */}
+              <div className="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800">
+                <div className="relative z-10 size-8 flex justify-center items-center">
+                  <span className="flex shrink-0 justify-center items-center size-8 border border-neutral-800 text-[#ff0] font-semibold text-xs uppercase rounded-full">
+                    5
+                  </span>
+                </div>
+              </div>
+              {/* End Icon */}
+
+              {/* Right Content */}
+              <div className="grow pt-0.5 pb-8 sm:pb-12">
+                <p className="text-sm md:text-base text-neutral-400">
+                  <span className="text-white">Launch & Handoff: </span> You get
+                  a live, fully functional product — with docs, access, and
+                  ongoing support if needed.
                 </p>
               </div>
               {/* End Right Content */}

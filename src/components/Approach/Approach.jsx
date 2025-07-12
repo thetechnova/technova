@@ -9,7 +9,7 @@ const Approach = () => {
         {/* Title */}
         <div className="max-w-3xl mb-10 lg:mb-14">
           <h2 className="text-white font-semibold text-2xl md:text-4xl md:leading-tight">
-            Our approach
+            How We Build
           </h2>
           <p className="mt-1 text-neutral-400">
             This profound insight guides our comprehensive strategy — from

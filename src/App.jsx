@@ -7,6 +7,7 @@ import Testimonials from "../src/components/Testimonials/Testimonials";
 import Projects from "../src/components/Projects/Projects";
 import Contacts from "../src/components/Contacts/Contacts";
 import Technology from "../src/components/Technology/Technology";
+import Pricing from "../src/components/Pricing/Pricing";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Projects />/
       <Approach />
       <Testimonials />
+      <Pricing />
       <Contacts />
       <Footer />
     </>

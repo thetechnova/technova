@@ -3,7 +3,10 @@ import React from "react";
 const Approach = () => {
   return (
     // {/* Approach */}
-    <div className="bg-neutral-900">
+    <div
+      id="approach"
+      className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto"
+    >
       {/* Approach */}
       <div className="max-w-5xl px-4 xl:px-0 py-10 lg:pt-20 lg:pb-20 mx-auto">
         {/* Title */}

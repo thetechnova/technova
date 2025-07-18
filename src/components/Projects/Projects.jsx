@@ -1,7 +1,10 @@
 const Projects = () => {
   return (
     //    {/* Card Blog */}
-    <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+    <div
+      id="projects"
+      className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto"
+    >
       {/* Grid */}
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {/* Card */}
@@ -41,29 +44,28 @@ const Projects = () => {
           </div>
           <div className="p-4 md:p-6">
             <span className="block mb-1 text-xs font-semibold uppercase text-blue-600 dark:text-blue-500">
-              Atlassian API
+              Academic Website
             </span>
             <h3 className="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:hover:text-white">
-              Atlassian
+              Assessment On Click
             </h3>
             <p className="mt-3 text-gray-500 dark:text-neutral-500">
-              A software that develops products for software developers and
-              developments.
+              A acedemic writing company.
             </p>
           </div>
           <div className="mt-auto flex border-t border-gray-200 divide-x divide-gray-200 dark:border-neutral-700 dark:divide-neutral-700">
             <a
               className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
-              href="#"
+              href="https://assessmentonclick.com/"
             >
-              View sample
+              View Website
             </a>
-            <a
+            {/* <a
               className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
               href="#"
             >
               View API
-            </a>
+            </a> */}
           </div>
         </div>
         {/* End Card */}
@@ -112,28 +114,28 @@ const Projects = () => {
           </div>
           <div className="p-4 md:p-6">
             <span className="block mb-1 text-xs font-semibold uppercase text-rose-600 dark:text-rose-500">
-              Asana API
+              Assignment
             </span>
             <h3 className="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:hover:text-white">
-              Asana
+              Teachief Academy
             </h3>
             <p className="mt-3 text-gray-500 dark:text-neutral-500">
-              Track tasks and projects, use agile boards, measure progress.
+              A Assignment company.
             </p>
           </div>
           <div className="mt-auto flex border-t border-gray-200 divide-x divide-gray-200 dark:border-neutral-700 dark:divide-neutral-700">
             <a
               className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
-              href="#"
+              href="https://teachiefacademy.com/"
             >
-              View sample
+              View Website
             </a>
-            <a
+            {/* <a
               className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
               href="#"
             >
               View API
-            </a>
+            </a> */}
           </div>
         </div>
         {/* End Card */}
@@ -178,28 +180,28 @@ const Projects = () => {
           </div>
           <div className="p-4 md:p-6">
             <span className="block mb-1 text-xs font-semibold uppercase text-amber-500">
-              Slack API
+              Travel & Tour Website
             </span>
             <h3 className="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:hover:text-white">
-              Slack
+              PerfectTrip Creator
             </h3>
             <p className="mt-3 text-gray-500 dark:text-neutral-500">
-              Email collaboration and email service desk made easy.
+              A tour & travel website.
             </p>
           </div>
           <div className="mt-auto flex border-t border-gray-200 divide-x divide-gray-200 dark:border-neutral-700 dark:divide-neutral-700">
             <a
               className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
-              href="#"
+              href="https://perfecttripcreator.com/"
             >
-              View sample
+              View Website
             </a>
-            <a
+            {/* <a
               className="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
               href="#"
             >
               View API
-            </a>
+            </a> */}
           </div>
         </div>
         {/* End Card */}

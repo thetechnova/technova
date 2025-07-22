@@ -81,9 +81,9 @@ const Header = () => {
           <div class="md:ps-3">
             <a
               class="group inline-flex items-center gap-x-2 py-2 px-3 bg-[#ffb400] md:font-medium font-bold text-sm text-nowrap text-neutral-800 rounded-full focus:outline-hidden"
-              href="#"
+              href="#contact"
             >
-              Conatct Now
+              Contact Now
             </a>
           </div>
 
@@ -149,19 +149,19 @@ const Header = () => {
             </a>
             <a
               class="pe-3 ps-px sm:px-3 md:py-4 text-sm text-white hover:text-neutral-300 focus:outline-hidden focus:text-neutral-300"
-              href="#"
+              href="#projects"
             >
               Projects
             </a>
             <a
               class="pe-3 ps-px sm:px-3 md:py-4 text-sm text-white hover:text-neutral-300 focus:outline-hidden focus:text-neutral-300"
-              href="#"
+              href="#testimonials"
             >
               Testimonials
             </a>
             <a
               class="pe-3 ps-px sm:px-3 md:py-4 text-sm text-white hover:text-neutral-300 focus:outline-hidden focus:text-neutral-300"
-              href="#"
+              href="#approach"
             >
               Approach
             </a>

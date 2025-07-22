@@ -1,4 +1,36 @@
+import React from "react";
+
 const Contacts = () => {
+  const [result, setResult] = React.useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "86eb2c33-5086-44d8-b9da-6d6a299785d8");
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData,
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        setResult("Form Submitted Successfully");
+        event.target.reset();
+      } else {
+        console.log("Error", data);
+        setResult(data.message);
+      }
+    } catch (error) {
+      console.log("Error", error);
+      setResult("Something went wrong!");
+    }
+  };
+
   return (
     // {/* Contact */}
     <div id="contact" className="bg-neutral-900">
@@ -17,13 +49,14 @@ const Contacts = () => {
         {/* Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 lg:gap-x-16">
           <div className="md:order-2 border-b border-neutral-800 pb-10 mb-10 md:border-b-0 md:pb-0 md:mb-0">
-            <form>
+            <form onSubmit={onSubmit}>
               <div className="space-y-4">
-                {/* Input */}
                 <div className="relative">
                   <input
                     type="text"
                     id="hs-tac-input-name"
+                    name="name"
+                    required
                     className="peer p-3 sm:p-4 block w-full bg-neutral-800 border-transparent rounded-lg sm:text-sm text-white placeholder:text-transparent focus:outline-hidden focus:ring-0 focus:border-transparent disabled:opacity-50 disabled:pointer-events-none
               focus:pt-6
               focus:pb-2
@@ -46,13 +79,12 @@ const Contacts = () => {
                     Name
                   </label>
                 </div>
-                {/* End Input */}
-
-                {/* Input */}
                 <div className="relative">
                   <input
                     type="email"
                     id="hs-tac-input-email"
+                    name="email"
+                    required
                     className="peer p-3 sm:p-4 block w-full bg-neutral-800 border-transparent rounded-lg sm:text-sm text-white placeholder:text-transparent focus:outline-hidden focus:ring-0 focus:border-transparent disabled:opacity-50 disabled:pointer-events-none
               focus:pt-6
               focus:pb-2
@@ -75,13 +107,13 @@ const Contacts = () => {
                     Email
                   </label>
                 </div>
-                {/* End Input */}
 
-                {/* Input */}
                 <div className="relative">
                   <input
                     type="text"
                     id="hs-tac-input-company"
+                    name="company"
+                    required
                     className="peer p-3 sm:p-4 block w-full bg-neutral-800 border-transparent rounded-lg sm:text-sm text-white placeholder:text-transparent focus:outline-hidden focus:ring-0 focus:border-transparent disabled:opacity-50 disabled:pointer-events-none
               focus:pt-6
               focus:pb-2
@@ -104,13 +136,13 @@ const Contacts = () => {
                     Company
                   </label>
                 </div>
-                {/* End Input */}
 
-                {/* Input */}
                 <div className="relative">
                   <input
                     type="text"
                     id="hs-tac-input-phone"
+                    name="phone"
+                    required
                     className="peer p-3 sm:p-4 block w-full bg-neutral-800 border-transparent rounded-lg sm:text-sm text-white placeholder:text-transparent focus:outline-hidden focus:ring-0 focus:border-transparent disabled:opacity-50 disabled:pointer-events-none
               focus:pt-6
               focus:pb-2
@@ -133,12 +165,12 @@ const Contacts = () => {
                     Phone
                   </label>
                 </div>
-                {/* End Input */}
 
-                {/* Textarea */}
                 <div className="relative">
                   <textarea
                     id="hs-tac-message"
+                    name="message"
+                    required
                     className="peer p-3 sm:p-4 block w-full bg-neutral-800 border-transparent rounded-lg sm:text-sm text-white placeholder:text-transparent focus:outline-hidden focus:ring-0 focus:border-transparent disabled:opacity-50 disabled:pointer-events-none
               focus:pt-6
               focus:pb-2
@@ -162,7 +194,6 @@ const Contacts = () => {
                     Tell us about your project
                   </label>
                 </div>
-                {/* End Textarea */}
               </div>
 
               <div className="mt-2">
@@ -170,10 +201,10 @@ const Contacts = () => {
                   All fields are required
                 </p>
 
-                <p className="mt-5">
-                  <a
+                <div className="mt-5 flex items-center gap-4">
+                  <button
+                    type="submit"
                     className="group inline-flex items-center gap-x-2 py-2 px-3 bg-[#ff0] font-medium text-sm text-neutral-800 rounded-full focus:outline-hidden"
-                    href="#"
                   >
                     Submit
                     <svg
@@ -191,15 +222,25 @@ const Contacts = () => {
                       <path d="M5 12h14" />
                       <path d="m12 5 7 7-7 7" />
                     </svg>
-                  </a>
-                </p>
+                  </button>
+                  {result && (
+                    <span
+                      className={`text-sm ${
+                        result.includes("Success")
+                          ? "text-green-400"
+                          : "text-red-400"
+                      }`}
+                    >
+                      {result}
+                    </span>
+                  )}
+                </div>
               </div>
             </form>
           </div>
           {/* End Col */}
 
           <div className="space-y-14">
-            {/* Item */}
             <div className="flex gap-x-5">
               <svg
                 className="shrink-0 size-6 text-neutral-500"
@@ -226,9 +267,7 @@ const Contacts = () => {
                 </address>
               </div>
             </div>
-            {/* End Item */}
 
-            {/* Item */}
             <div className="flex gap-x-5">
               <svg
                 className="shrink-0 size-6 text-neutral-500"
@@ -257,9 +296,7 @@ const Contacts = () => {
                 </a>
               </div>
             </div>
-            {/* End Item */}
 
-            {/* Item */}
             <div className="flex gap-x-5">
               <svg
                 className="shrink-0 size-6 text-neutral-500"
@@ -307,9 +344,7 @@ const Contacts = () => {
                 </p>
               </div>
             </div>
-            {/* End Item */}
           </div>
-          {/* End Col */}
         </div>
         {/* End Grid */}
       </div>

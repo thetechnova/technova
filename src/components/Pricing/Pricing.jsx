@@ -10,9 +10,9 @@ const Pricing = () => {
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {/* Starter Card */}
         <div className="flex flex-col border border-gray-200 text-center rounded-xl p-8 dark:border-neutral-700">
-          <div className="flex-shrink-0 flex justify-center items-center size-12 bg-green-100 rounded-lg dark:bg-green-900/30 mb-4">
+          {/* <div className="flex-shrink-0 flex justify-center items-center size-12 bg-green-100 rounded-lg dark:bg-green-900/30 mb-4">
             <span className="text-2xl">🟩</span>
-          </div>
+          </div> */}
           <h4 className="font-medium text-lg text-gray-800 dark:text-neutral-200">
             Starter
           </h4>
@@ -78,7 +78,7 @@ const Pricing = () => {
 
           <a
             className="mt-5 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-[#ffb400] text-black hover:bg-[#e5a200] disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-            href="#"
+            href="#contact"
           >
             🚀 Get Your Portfolio
           </a>
@@ -87,9 +87,9 @@ const Pricing = () => {
 
         {/* Growth Card */}
         <div className="flex flex-col border-2 border-[#ffb400] text-center shadow-xl rounded-xl p-8 dark:border-[#ffb400]">
-          <div className="flex-shrink-0 flex justify-center items-center size-12 bg-yellow-100 rounded-lg dark:bg-yellow-900/30 mb-4">
+          {/* <div className="flex-shrink-0 flex justify-center items-center size-12 bg-yellow-100 rounded-lg dark:bg-yellow-900/30 mb-4">
             <span className="text-2xl">🟨</span>
-          </div>
+          </div> */}
           <h4 className="font-medium text-lg text-gray-800 dark:text-neutral-200">
             Growth
           </h4>
@@ -167,7 +167,7 @@ const Pricing = () => {
 
           <a
             className="mt-5 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-[#ffb400] text-black hover:bg-[#e5a200] disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-            href="#"
+            href="#contact"
           >
             ⚡ Start Your Website
           </a>
@@ -176,9 +176,9 @@ const Pricing = () => {
 
         {/* Custom Build Card */}
         <div className="flex flex-col border border-gray-200 text-center rounded-xl p-8 dark:border-neutral-700">
-          <div className="flex-shrink-0 flex justify-center items-center size-12 bg-red-100 rounded-lg dark:bg-red-900/30 mb-4">
+          {/* <div className="flex-shrink-0 flex justify-center items-center size-12 bg-red-100 rounded-lg dark:bg-red-900/30 mb-4">
             <span className="text-2xl">🟥</span>
-          </div>
+          </div> */}
           <h4 className="font-medium text-lg text-gray-800 dark:text-neutral-200">
             Custom Build
           </h4>
@@ -247,7 +247,7 @@ const Pricing = () => {
 
           <a
             className="mt-5 py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-[#ffb400] text-black hover:bg-[#e5a200] disabled:opacity-50 disabled:pointer-events-none dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-            href="#"
+            href="#contact"
           >
             🧠 Talk to Us
           </a>

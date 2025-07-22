@@ -27,7 +27,7 @@ const Technology = () => {
             delay: 0,
             disableOnInteraction: false,
           }}
-          speed={3000}
+          speed={5000}
           allowTouchMove={true}
           breakpoints={{
             320: { slidesPerView: 2 },

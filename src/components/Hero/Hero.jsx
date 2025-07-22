@@ -23,7 +23,7 @@ const Hero = () => {
           <div className="mt-8 gap-3 flex justify-center">
             <a
               className="inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-tl from-[#ffb400] to-[#ffd700] hover:from-[#ffd700] hover:to-[#ffb400] focus:outline-hidden focus:from-[#ffd700] focus:to-[#ffb400] border border-transparent text-neutral-800 text-sm font-medium rounded-full py-3 px-4"
-              href="#"
+              href="#contact"
             >
               Build With TechNova
             </a>

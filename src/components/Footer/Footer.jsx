@@ -127,7 +127,7 @@ const Footer = () => {
 
           {/* LinkedIn */}
           <a
-            href="#"
+            href="https://www.linkedin.com/in/tech-nova-2b04b5372/"
             className="text-gray-500 hover:text-[#ffb400] transition-colors duration-300"
             target="_blank"
             rel="noopener noreferrer"
